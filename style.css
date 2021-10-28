@@ -19,7 +19,7 @@ main > button > img {
 }
 #rock{
     background-color: #800000;
-    background-image: url(./img/rock-min.svg);
+    background-image: url(./img/rock.svg);
     background-size: contain;
 }
 #rock:hover, #rock:focus {
@@ -27,7 +27,7 @@ main > button > img {
 }
 #paper{
     background-color: #000080;
-    background-image: url(./img/paper-min.svg);
+    background-image: url(./img/paper.svg);
     background-size: contain;
 }
 #paper:hover, #paper:focus {
@@ -35,7 +35,7 @@ main > button > img {
 }
 #scissors{
     background-color: #008000;
-    background-image: url(./img/scissors-min.svg);
+    background-image: url(./img/scissors.svg);
     background-size: contain;
 }
 #scissors:hover, #scissors:focus {
