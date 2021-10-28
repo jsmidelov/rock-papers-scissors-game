@@ -1,0 +1,48 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+main > button {
+    flex-grow: 1;
+    margin: 0 10px;
+    aspect-ratio: 1;
+}
+main > button > img {
+    width: 90%;
+    margin: auto;
+    aspect-ratio: 1;
+}
+#rock{
+    background-color: #800000;
+    background-image: url(./img/rock-min.svg);
+    background-size: contain;
+}
+#rock:hover, #rock:focus {
+    background-color: #f00000;
+}
+#paper{
+    background-color: #000080;
+    background-image: url(./img/paper-min.svg);
+    background-size: contain;
+}
+#paper:hover, #paper:focus {
+    background-color: #0000f0;
+}
+#scissors{
+    background-color: #008000;
+    background-image: url(./img/scissors-min.svg);
+    background-size: contain;
+}
+#scissors:hover, #scissors:focus {
+    background-color: #00f000;
+}
+#score{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
