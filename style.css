@@ -41,6 +41,11 @@ main > button > img {
 #scissors:hover, #scissors:focus {
     background-color: #00f000;
 }
+.icon-path{
+    fill:none;
+    stroke:#fff;
+    stroke-width:.5;
+}
 #score{
     text-align: center;
     margin: 0 auto;
